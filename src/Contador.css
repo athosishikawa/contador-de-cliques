@@ -1,0 +1,54 @@
+.contador-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .contador-titulo {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    transition: font-size 0.3s ease-in-out; 
+  }
+  
+  .contador-titulo.animate {
+    font-size: 2.2em; 
+  }
+  
+  .contador-botao {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .contador-botao:hover {
+    background-color: #0056b3;
+  }
+  
+  .contador-botao:active {
+    transform: scale(0.95); 
+    background-color: #004085;
+  }
+  
+  .contador-numero {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #555;
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .contador-numero.animate {
+    transform: scale(1.1); 
+  }
