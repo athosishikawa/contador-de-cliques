@@ -27,6 +27,8 @@ O projeto consiste em um contador web simples, porém visualmente atraente, cons
 - JavaScript (ES6+): Linguagem de programação para a lógica da aplicação.
 - CSS: Linguagem de estilos para a apresentação visual.
 
+![image](https://github.com/user-attachments/assets/c30ed82c-33cf-494f-87e0-eadf2390d58b)
+
 
 # React + Vite
 
